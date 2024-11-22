@@ -1,13 +1,12 @@
 
 import './App.css';
-import CharacterCanvas from './component/CharcterCanvas';
+import Monkey from './component/Monkey';
 
 function App() {
   return (
-    <div className="App" style={{width: "100%" ,backgroundImage:"url('/mainbg.png')", boxSizing:'border-box',
-      height:" 100vh",
-     }}>
-      <CharacterCanvas/>
+    <div className="App" style={{ backgroundImage:"url('/mainbg.png')", 
+    height:'100dvh', backgroundSize: "cover", backgroundRepeat: "no-repeat", }}>
+    <Monkey/>
 
     </div>
   );
