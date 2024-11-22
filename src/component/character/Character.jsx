@@ -7,7 +7,7 @@ export function Monkey(props) {
   return (
     <group {...props} dispose={null}>
       <group scale={0.01}>
-        <group position={[-14.628, 583.156, 200.225]} rotation={[-Math.PI / 2, 0, 0]} scale={6.473}>
+        <group position={[-14.628, 183.156, 200.225]} rotation={[-Math.PI / 2, 0, 0]} scale={6.473}>
           <mesh
             castShadow
             receiveShadow
